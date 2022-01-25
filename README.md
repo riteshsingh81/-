@@ -1,4 +1,4 @@
-# -
+# -𝐅𝐚𝐜𝐞 𝐓𝐫𝐚𝐜𝐤𝐞𝐫 𝐔𝐬𝐢𝐧𝐠 𝐎𝐩𝐞𝐧𝐂𝐕 𝐚𝐧𝐝 𝐀𝐫𝐝𝐮𝐢𝐧𝐨
 The facial recognition is a very useful tool incorporated in many modern devices to detect human faces for tracking, biometric and to recognize human activities. In this project, I have used the OpenCV's Harr cascade classifiers for detecting human faces and pan/tilt servo mechanism to track the user's face using Arduino UNO.
 How it Works?
 Facial detection identifies and localizes human faces and ignores any background objects such as curtain, windows, trees, etc. OpenCV uses Harr cascade of classifiers where each frame of the video is passed through stages of classifiers and if the frame passes through all the classifiers, the face is present else the frame is discarded from the classifier i.e the face is not detected.
